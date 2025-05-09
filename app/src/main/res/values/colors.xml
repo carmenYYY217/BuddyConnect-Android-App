@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Theme colors -->
+    <color name="default_text1">#000000</color>
+    <color name="default_text2">#8C8C8C</color>
+    <color name="default_text3">#FFFFFF</color>
+    <color name="default_background">#C8B6F2</color>
+    <color name="default_slider_container">#6754A0</color>
+    <color name="default_button">#262626</color>
+    <color name="default_button_text">#E4E4E4</color>
+    <color name="default_bottom_bar">#181818</color>
+    <color name="default_bottom_bar_selected">#7C35EB</color>
+    <color name="default_bottom_bar_icon_selected">#FFFFFF</color>
+    <color name="default_bottom_bar_icon_unselected">#FFFFFF</color>
+
+    <!-- Happy Theme colors -->
+    <color name="happy_text1">#000000</color>
+    <color name="happy_text2">#8C8C8C</color>
+    <color name="happy_text3">#FFFFFF</color>
+    <color name="happy_background">#FFF9E0</color>
+    <color name="happy_slider_container">#f4d688</color>
+    <color name="happy_button">#deb859</color>
+    <color name="happy_button_text">#5d5e5b</color>
+    <color name="happy_bottom_bar">#1A1A19</color>
+    <color name="happy_bottom_bar_selected">#ffda1a</color>
+    <color name="happy_bottom_bar_icon_selected">#10100F</color>
+    <color name="happy_bottom_bar_icon_unselected">#FFFFFF</color>
+
+    <!-- Angry Theme colors -->
+    <color name="angry_text1">#000000</color>
+    <color name="angry_text2">#8C8C8C</color>
+    <color name="angry_text3">#FFFFFF</color>
+    <color name="angry_background">#FFE0E0</color>
+    <color name="angry_slider_container">#c74244</color>
+    <color name="angry_button">#f5beb7</color>
+    <color name="angry_button_text">#150b07</color>
+    <color name="angry_bottom_bar">#050505</color>
+    <color name="angry_bottom_bar_selected">#aa0913</color>
+    <color name="angry_bottom_bar_icon_selected">#FFFFFF</color>
+    <color name="angry_bottom_bar_icon_unselected">#FFFFFF</color>
+
+    <!-- Chill Theme colors -->
+    <color name="chill_text1">#000000</color>
+    <color name="chill_text2">#8C8C8C</color>
+    <color name="chill_text3">#FFFFFF</color>
+    <color name="chill_background">#E4FFE0</color>
+    <color name="chill_slider_container">#6f9b68</color>
+    <color name="chill_button">#89b582</color>
+    <color name="chill_button_text">#D7EBDD</color>
+    <color name="chill_bottom_bar">#16331b</color>
+    <color name="chill_bottom_bar_selected">#335835</color>
+    <color name="chill_bottom_bar_icon_selected">#E3E4E2</color>
+    <color name="chill_bottom_bar_icon_unselected">#FFFFFF</color>
+
+    <!-- Sad Theme colors -->
+    <color name="sad_text1">#000000</color>
+    <color name="sad_text2">#8C8C8C</color>
+    <color name="sad_text3">#FFFFFF</color>
+    <color name="sad_background">#E0E7FF</color>
+    <color name="sad_slider_container">#2f5dc1</color>
+    <color name="sad_button">#1c58d4</color>
+    <color name="sad_button_text">#f7f9f9</color>
+    <color name="sad_bottom_bar">#090909</color>
+    <color name="sad_bottom_bar_selected">#24076F</color>
+    <color name="sad_bottom_bar_icon_selected">#F8F8FA</color>
+    <color name="sad_bottom_bar_icon_unselected">#FFFFFF</color>
+
+    <!-- sleepy theme colors -->
+    <color name="sleepy_text3">#000000</color>
+    <color name="sleepy_text2">#8C8C8C</color>
+    <color name="sleepy_text1">#FFFFFF</color>
+    <color name="sleepy_background">#0E0E10</color>
+    <color name="sleepy_slider_container">#1e1f23</color>
+    <color name="sleepy_button">#e9eceb</color>
+    <color name="sleepy_button_text">#1b1b1d</color>
+    <color name="sleepy_bottom_bar">#F6F6F6</color>
+    <color name="sleepy_bottom_bar_selected">#FFFFFF</color>
+    <color name="sleepy_bottom_bar_icon_selected">#000000</color>
+    <color name="sleepy_bottom_bar_icon_unselected">#111112</color>
+
+    <!-- Other colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8692f7</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+
+    <color name="colorPrimary">#8692f7</color>
+    <color name="colorPrimaryDark">#6D78CE</color>
+    <color name="colorAccent">#FF03DAC5</color>
+
+    <color name="lightRed">#FBAFAF</color>
+    <color name="lightOrange">#FF8C00</color>
+    <color name="darkOrange">#FF6F61</color>
+    <color name="lightBlue">#19aed0</color>
+    <color name="lightgreen">#98FB98</color>
+    <color name="lightGrey">#D2D2D2</color>
+    <color name="lightWhite">#D2D2D2</color>
+    <color name="darkGray">#A9A9A9</color>
+
+</resources>

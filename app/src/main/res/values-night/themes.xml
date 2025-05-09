@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BuddyConnect" parent="Theme.MaterialComponents.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--不強製所有BUTTONS用大寫 -> Buttons -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Theme.BuddyConnect" parent="Base.Theme.BuddyConnect" />
+    
+    <!-- Splash screen theme -->
+    <style name="Theme.BuddyConnect.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+    
+    <!-- Transparent ActionBare -->
+    <style name="TransparentActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@android:color/transparent</item>
+        <item name="elevation">0dp</item>
+    </style>
+    
+    <!-- Centered title text style -->
+    <style name="CenteredTitleText" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>

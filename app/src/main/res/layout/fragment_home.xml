@@ -1,0 +1,251 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!-- Status bar space view -->
+    <View
+        android:id="@+id/statusBarSpaceView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 1. Greeting TextView: "Hello <username> 👋" -->
+    <TextView
+        android:id="@+id/greetingText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppin"
+        android:text="Hello username 👋"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statusBarSpaceView"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <!-- 2. Circular User Icon ImageButton -->
+    <ImageButton
+        android:id="@+id/userIconButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle_icon"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_account_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/greetingText" />
+
+    <!-- 3. "How do you feel today?" TextView -->
+    <TextView
+        android:id="@+id/feelTodayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat"
+        android:text="How do you feel today?"
+        android:textColor="@color/lightGrey"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/greetingText"
+        app:layout_constraintTop_toBottomOf="@id/greetingText" />
+
+    <!-- 4. Five Image Toggle Buttons with Equal Spacing -->
+    <LinearLayout
+        android:id="@+id/emotionButtonsLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feelTodayText">
+
+        <!-- Space before the first button -->
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/happyButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:background="@drawable/happy_selector"
+            android:clickable="true"
+            android:contentDescription="Happy"
+            android:focusable="true"
+            android:src="@drawable/ic_happy" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sadButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:background="@drawable/sad_selector"
+            android:clickable="true"
+            android:contentDescription="Sad"
+            android:focusable="true"
+            android:src="@drawable/ic_sad" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/chillButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:background="@drawable/chill_selector"
+            android:clickable="true"
+            android:contentDescription="Chill"
+            android:focusable="true"
+            android:src="@drawable/ic_chill" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/angryButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:background="@drawable/angry_selector"
+            android:clickable="true"
+            android:contentDescription="Angry"
+            android:focusable="true"
+            android:src="@drawable/ic_angry" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sleepyButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:background="@drawable/sleepy_selector"
+            android:clickable="true"
+            android:contentDescription="Sleepy"
+            android:focusable="true"
+            android:src="@drawable/ic_sleepy" />
+
+        <!-- Space after the last button -->
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!-- 5. SearchView with Rounded Corner Background -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/search_bar_background"
+        android:padding="12dp"
+        app:iconifiedByDefault="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emotionButtonsLayout"
+        app:queryHint="Search" />
+
+    <!-- 6. Horizontal Scroll View with 5 Circular Icons -->
+    <ImageButton
+        android:id="@+id/addFriendButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle_icon"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchView" />
+
+    <TextView
+        android:id="@+id/addFriendText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Add Friends"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="2dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@id/addFriendButton"
+        app:layout_constraintStart_toStartOf="@id/addFriendButton"
+        app:layout_constraintTop_toBottomOf="@id/addFriendButton" />
+
+    <!-- Friends RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friendsRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/addFriendButton"
+        app:layout_constraintTop_toTopOf="@id/addFriendButton" />
+
+    <!-- 7. Slider Background View (Orange Layout) -->
+    <View
+        android:id="@+id/sliderBackgroundView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/slider_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Image Slider ViewPager2 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerImageSlider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        app:layout_constraintBottom_toBottomOf="@id/sliderBackgroundView"
+        app:layout_constraintEnd_toEndOf="@id/sliderBackgroundView"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="@id/sliderBackgroundView"
+        app:layout_constraintTop_toTopOf="@id/sliderBackgroundView"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <!-- Slider Title Text -->
+    <TextView
+        android:id="@+id/sliderTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald"
+        android:text="Title"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/viewPagerImageSlider"
+        app:layout_constraintEnd_toEndOf="@id/sliderBackgroundView"
+        app:layout_constraintStart_toStartOf="@id/sliderBackgroundView"
+        app:layout_constraintTop_toTopOf="@id/sliderBackgroundView"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

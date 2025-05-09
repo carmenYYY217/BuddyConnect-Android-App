@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色主題特定顏色 -->
+    <color name="lightBlue">#54D5F7</color>
+    <color name="lavender">#A4AEFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="lightWhite">#F5F5F5</color>
+    <color name="lightGrey">#E0E0E0</color>
+</resources> 

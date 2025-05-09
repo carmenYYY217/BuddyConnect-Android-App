@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="@string/nav_home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item android:id="@+id/nav_friends"
+        android:title="@string/nav_friends"
+        android:icon="@drawable/ic_friend"
+        />
+
+    <item android:id="@+id/nav_search"
+        android:title="@string/nav_search"
+        android:icon="@drawable/ic_search"
+        />
+
+    <item android:id="@+id/nav_chatbot"
+        android:title="@string/nav_ask_ai"
+        android:icon="@drawable/ic_chat"
+        />
+
+    <item android:id="@+id/nav_settings"
+        android:title="@string/nav_settings"
+        android:icon="@drawable/ic_setting"
+        />
+
+    <!--    <item android:id="@+id/nav_c"-->
+    <!--        android:title=""-->
+    <!--        android:enabled="false"-->
+    <!--        />-->
+    <!--    <item android:id="@+id/nav_d"-->
+    <!--        android:title=""-->
+    <!--        android:enabled="false"-->
+    <!--        />-->
+
+</menu>

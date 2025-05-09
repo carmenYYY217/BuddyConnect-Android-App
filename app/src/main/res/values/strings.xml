@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Buddy Connect</string>
+    
+    <!-- Login and Registration -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="display_name">Display Name</string>
+    <string name="back">Back</string>
+    <string name="register_new_account">Register New Account</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="fill_all_fields">Please fill in all fields</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="password_too_short">Password must be at least 6 characters long</string>
+    <string name="registering">Registering...</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="registration_timeout">Registration request timed out. Please check your network connection and try again.</string>
+    <string name="registration_successful">Registration successful!</string>
+    <string name="registration_login_failed">Registration successful but login failed: %1$s</string>
+    <string name="login_successful">Login successful!</string>
+    
+    <!-- Main Activity -->
+    <string name="settings">Settings</string>
+    <string name="friends">Friends</string>
+    <string name="plan">Plan</string>
+    <string name="connect">Connect</string>
+    <string name="record">Record</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="logged_in">Logged in</string>
+    <string name="logged_in_as">Logged in: %1$s</string>
+    <string name="not_logged_in">Not logged in</string>
+    
+    <!-- Settings -->
+    <string name="theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">Traditional Chinese</string>
+    <string name="use_chinese">Use Traditional Chinese</string>
+    <string name="logout">Logout</string>
+    <string name="logged_out">Logged out</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="appearance">Appearance</string>
+    <string name="language_english_chinese">英文/中文 (English/Chinese)</string>
+    <string name="api_settings">API Settings</string>
+    <string name="api_key_explanation">Set your API key for using the chatbot feature.</string>
+    <string name="api_key_not_set">API key is not set</string>
+    <string name="error_retrieving_api_key">Error retrieving API key</string>
+    
+    <!-- Auth Activity -->
+    <string name="exit_app">Exit Application</string>
+    <string name="exit_confirmation">Are you sure you want to exit the application?</string>
+    <string name="login_required">Login required</string>
+    <string name="login_to_continue">Please login to continue using the app</string>
+    
+    <!-- Chatbot -->
+    <string name="send">Send</string>
+    <string name="you">You</string>
+    <string name="grok">Your best friend</string>
+    <string name="ask_grok">Ask your best friend a question...</string>
+    <string name="error_sending_message">Error sending message</string>
+    <string name="network_error">Network error, please check connection</string>
+    <string name="api_error">API error: %1$s</string>
+    <string name="enter_message">Please enter a message</string>
+    <string name="set_api_key">Set API Key</string>
+    <string name="clear_api_key">Clear API Key</string>
+    <string name="clear_api_key_local">Clear Local Key</string>
+    <string name="save_api_key_local">Save Key Locally</string>
+    <string name="save_api_key">Save Key</string>
+    <string name="upload_api_key">Upload Key</string>
+    <string name="clear_remote_api_key">Delete Remote Key</string>
+    <string name="enter_api_key">Please enter your API key.</string>
+    <string name="api_key_cannot_be_empty">API key cannot be empty</string>
+    <string name="chatbot_unavailable">Chatbot Unavailable</string>
+    <string name="contact_admin_for_api_key">Chatbot feature is currently unavailable. Please set up an API key in Settings.</string>
+    <string name="api_key_saved">API key saved successfully</string>
+    <string name="api_key_saved_locally">API key saved locally</string>
+    <string name="error_saving_api_key">Error saving API key: %1$s</string>
+    <string name="api_key_cleared">API key cleared</string>
+    <string name="api_key_cleared_local">API key cleared from local storage</string>
+    <string name="api_key_cleared_remote">API key deleted from remote server</string>
+    <string name="error_clearing_api_key">Error clearing API key</string>
+    <string name="confirm_clear_api_key">Are you sure you want to clear the API key? This will disable the chatbot.</string>
+    <string name="confirm_clear_remote_api_key">Are you sure you want to delete the API key from the remote server?</string>
+    <string name="chatbot_welcome">Welcome to the AI chatbot! You can ask me any question.</string>
+    <string name="chatbot_not_initialized">Chat service not initialized, please try again later</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="chatbot_settings">AI Chatbot Settings</string>
+    <string name="api_key_hint">Enter API Key</string>
+    <string name="api_key_status_set">API key is set</string>
+    <string name="api_key_status_not_set">API key is not set</string>
+    <string name="fetch_remote_api_key">Fetch Remote API Key</string>
+    <string name="setup_key_in_settings">Please set up your API key in Settings first</string>
+    <string name="error_title">Error</string>
+    <string name="retry">Retry</string>
+    <string name="message_too_long">Message too long, please enter a shorter message</string>
+    <string name="api_timeout">API request timed out, please try again</string>
+    <string name="invalid_api_key">Invalid API key, please check your settings</string>
+    <string name="error_fetching_api_key">Error fetching API key</string>
+    <string name="validating_api_key">Validating API key...</string>
+    <string name="api_key_validation_failed">API key validation failed</string>
+    <string name="type_a_message">輸入訊息...</string>
+    <string name="send_message">發送訊息</string>
+    <string name="fetching_api_key">Fetching API key...</string>
+    <string name="api_key_fetched">API key successfully fetched from remote</string>
+    <string name="api_key_uploaded">API key successfully uploaded to remote</string>
+    <string name="error_uploading_api_key">Error uploading API key to remote</string>
+    <string name="error_clearing_remote_api_key">Error deleting remote API key</string>
+    <string name="error_fetching_remote_api_key">Error fetching remote API key</string>
+    <string name="uploading_api_key">Uploading API key to remote...</string>
+    <string name="deleting_remote_api_key">Deleting remote API key...</string>
+    <string name="operation_taking_too_long">Operation is taking longer than expected. Will continue in background.</string>
+    <string name="save_key_first">Please save an API key locally first.</string>
+    <string name="no_remote_key_found">No API key found on server. Please upload one first.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_friends">Friends</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_ask_ai">Ask AI</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Plan Fragment -->
+    <string name="plan_coming_soon">Plan feature coming soon!</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/friendIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/circle_icon"
+        android:scaleType="centerCrop"
+        android:padding="4dp"
+        android:src="@drawable/ic_account_icon" />
+
+    <TextView
+        android:id="@+id/friendDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat"
+        android:maxWidth="80dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+</LinearLayout>

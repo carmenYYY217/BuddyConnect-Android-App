@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#F0B087"
+            android:endColor="#F0B087"
+            android:angle="270" />
+        </shape>
+    </item>
+    <item>
+        <vector
+            android:width="100dp"
+            android:height="100dp"
+            android:viewportWidth="100"
+            android:viewportHeight="100">
+            <path
+                android:fillColor="#00000000"
+            android:pathData="M0,0 H100 V90 Q50,110 0,90 Z" />
+        </vector>
+    </item>
+</layer-list>

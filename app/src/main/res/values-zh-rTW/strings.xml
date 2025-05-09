@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Buddy Connect</string>
+    
+    <!-- Login and Registration -->
+    <string name="login">登入</string>
+    <string name="register">註冊</string>
+    <string name="email">電子郵件</string>
+    <string name="password">密碼</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="display_name">顯示名稱</string>
+    <string name="back">返回</string>
+    <string name="register_new_account">註冊新帳號</string>
+    <string name="back_to_login">返回登入頁面</string>
+    <string name="fill_all_fields">請填寫所有欄位</string>
+    <string name="password_not_match">密碼不匹配</string>
+    <string name="password_too_short">密碼必須至少6個字符</string>
+    <string name="registering">註冊中...</string>
+    <string name="logging_in">登入中...</string>
+    <string name="registration_timeout">註冊請求超時。請檢查網絡連接並重試。</string>
+    <string name="registration_successful">註冊成功！</string>
+    <string name="registration_login_failed">註冊成功但登入失敗: %1$s</string>
+    <string name="login_successful">登入成功！</string>
+    
+    <!-- Main Activity -->
+    <string name="settings">設定</string>
+    <string name="friends">好友</string>
+    <string name="plan">計劃</string>
+    <string name="connect">連接</string>
+    <string name="record">記錄</string>
+    <string name="chatbot">聊天機器人</string>
+    <string name="logged_in">已登入</string>
+    <string name="logged_in_as">已登入: %1$s</string>
+    <string name="not_logged_in">未登入</string>
+    
+    <!-- Settings -->
+    <string name="theme">主題</string>
+    <string name="theme_light">淺色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_system">系統預設</string>
+    <string name="change_theme">更改主題</string>
+    <string name="language">語言</string>
+    <string name="language_english">英文</string>
+    <string name="language_chinese">繁體中文</string>
+    <string name="use_chinese">使用繁體中文</string>
+    <string name="logout">登出</string>
+    <string name="logged_out">已登出</string>
+    <string name="back_to_main">返回主頁</string>
+    <string name="appearance">外觀</string>
+    <string name="language_english_chinese">英文/中文 (English/Chinese)</string>
+    <string name="api_settings">API 設定</string>
+    <string name="api_key_explanation">設置您的 API 密鑰以使用聊天機器人功能。</string>
+    
+    <!-- Auth Activity -->
+    <string name="exit_app">退出應用</string>
+    <string name="exit_confirmation">確定要退出應用嗎？</string>
+    <string name="login_required">需要登入</string>
+    <string name="login_to_continue">請登入以繼續使用應用</string>
+
+    <!-- Chatbot -->
+    <string name="send">發送</string>
+    <string name="you">你</string>
+    <string name="grok">你的好朋友</string>
+    <string name="ask_grok">向你的好朋友提問...</string>
+    <string name="error_sending_message">發送訊息時出錯</string>
+    <string name="network_error">網絡錯誤，請檢查連接</string>
+    <string name="api_error">API 錯誤: %1$s</string>
+    <string name="enter_message">請輸入訊息</string>
+    <string name="set_api_key">設置 API 密鑰</string>
+    <string name="clear_api_key">清除 API 密鑰</string>
+    <string name="clear_api_key_local">清除本地密鑰</string>
+    <string name="save_api_key_local">儲存密鑰到本地</string>
+    <string name="save_api_key">保存密鑰</string>
+    <string name="upload_api_key">上傳密鑰</string>
+    <string name="clear_remote_api_key">刪除遠端密鑰</string>
+    <string name="enter_api_key">請輸入您的 API 密鑰。</string>
+    <string name="api_key_cannot_be_empty">API 密鑰不能為空</string>
+    <string name="chatbot_unavailable">聊天機器人不可用</string>
+    <string name="contact_admin_for_api_key">聊天機器人功能當前不可用。請在設置中設置您的API密鑰。</string>
+    <string name="api_key_saved">API 密鑰保存成功</string>
+    <string name="api_key_saved_locally">API 密鑰已本地保存</string>
+    <string name="error_saving_api_key">保存 API 密鑰出錯: %1$s</string>
+    <string name="api_key_cleared">API 密鑰已清除</string>
+    <string name="api_key_cleared_local">API 密鑰已從本地存儲清除</string>
+    <string name="api_key_cleared_remote">API 密鑰已從遠端伺服器刪除</string>
+    <string name="error_clearing_api_key">清除 API 密鑰時出錯</string>
+    <string name="confirm_clear_api_key">您確定要清除 API 密鑰嗎？這將使聊天機器人功能失效。</string>
+    <string name="confirm_clear_remote_api_key">您確定要從遠端伺服器刪除 API 密鑰嗎？</string>
+    <string name="chatbot_welcome">歡迎使用 AI 聊天機器人！您可以向我詢問任何問題。</string>
+    <string name="chatbot_not_initialized">聊天服務未初始化，請稍後再試</string>
+    <string name="go_to_settings">前往設置</string>
+    <string name="chatbot_settings">AI 聊天機器人設置</string>
+    <string name="api_key_hint">輸入 API 密鑰</string>
+    <string name="api_key_status_set">API 密鑰已設置</string>
+    <string name="api_key_status_not_set">API 密鑰未設置</string>
+    <string name="fetch_remote_api_key">從遠端取得API key</string>
+    <string name="fetching_api_key">正在從遠端取得API密鑰...</string>
+    <string name="api_key_fetched">成功從遠端取得API密鑰</string>
+    <string name="api_key_uploaded">成功上傳API密鑰到遠端</string>
+    <string name="error_uploading_api_key">上傳API密鑰到遠端時出錯</string>
+    <string name="error_clearing_remote_api_key">刪除遠端API密鑰時出錯</string>
+    <string name="error_fetching_remote_api_key">從遠端取得API密鑰時出錯</string>
+    <string name="uploading_api_key">正在上傳API密鑰到遠端...</string>
+    <string name="deleting_remote_api_key">正在刪除遠端API密鑰...</string>
+    <string name="setup_key_in_settings">請先在設置中設置您的 API 密鑰</string>
+    <string name="error_title">錯誤</string>
+    <string name="retry">重試</string>
+    <string name="message_too_long">訊息太長，請輸入較短的訊息</string>
+    <string name="api_timeout">API 請求超時，請重試</string>
+    <string name="invalid_api_key">無效的 API 密鑰，請檢查您的設置</string>
+    <string name="error_fetching_api_key">獲取API金鑰時出錯</string>
+    <string name="validating_api_key">驗證API密鑰中...</string>
+    <string name="api_key_validation_failed">API密鑰驗證失敗</string>
+    <string name="operation_taking_too_long">操作時間超過預期。將在背景繼續執行。</string>
+    <string name="save_key_first">請先保存API密鑰到本地。</string>
+    <string name="no_remote_key_found">伺服器上未找到API密鑰。請先上傳一個。</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">首頁</string>
+    <string name="nav_friends">好友</string>
+    <string name="nav_search">搜尋</string>
+    <string name="nav_ask_ai">問AI</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Plan Fragment -->
+    <string name="plan_coming_soon">計劃功能即將推出！</string>
+</resources> 
